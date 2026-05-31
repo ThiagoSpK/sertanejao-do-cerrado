@@ -73,18 +73,3 @@ out
 deliverables/*.tmp
 deliverables/draft-*
 
-# Design assets pesados (opcional — se quiser versionar, remover linhas abaixo)
-# design/screens/**/*.png
-# design/assets/**/*.psd
-# design/assets/**/*.fig
-
-# === Privacidade do processo de desenvolvimento ===
-# Arquivos internos que não devem ir para o repo público
-.claude/
-CLAUDE.md
-docs/_analise-anti-ai.md
-docs/07-revisao-anti-ai.md
-.aiox-core/
-AGENTS.md
-*.tmp
-_*.md

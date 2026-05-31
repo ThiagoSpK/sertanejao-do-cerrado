@@ -33,12 +33,10 @@ O que está implementado:
 
 ## Identidade visual
 
-Paleta inspirada no Cerrado goiano:
-
 | Token | Hex | Uso |
 |---|---|---|
-| Ocre | `#B07A2E` | Cor primária (CTAs, badges de marca) |
-| Fogo | `#D9A036` | Acentos quentes, promos |
+| Indigo | `#2D3A8C` | Cor primária (CTAs, badges de marca) |
+| Coral | `#E85D4C` | Acento quente (promoções, selos de novidade) |
 | Verde-folha | `#3D6B4F` | Acento verde (sucesso, categorias regionais) |
 | Areia | `#F5E6D3` | Superfície principal |
 | Noite | `#1A1A2E` | Tipografia e fundos escuros |
