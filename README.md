@@ -98,15 +98,6 @@ PIX sempre aprova — útil pra demonstrar o caminho feliz.
 ```
 sertanejao-do-cerrado-pmd/
 ├── README.md
-├── docs/                       Documentação técnica
-│   ├── 01-briefing.md
-│   ├── 02-requisitos.md
-│   ├── 03-fluxos.md
-│   ├── 04-design-system.md
-│   ├── 05-plano-testes.md
-│   ├── 06-decisoes-tecnicas.md
-│   └── DEPLOY.md               Passo a passo do deploy
-├── design/                     Telas e tokens dos designs
 ├── public/                     Ícones PWA, manifest assets
 ├── src/
 │   ├── pages/                  Por contexto (cliente, totem, admin)
@@ -128,17 +119,6 @@ sertanejao-do-cerrado-pmd/
 | **Cliente** (mobile/web) | `/home` em diante | PWA instalável, mobile-first |
 | **Totem** | `/totem` | Layout fixo 1080×1920 escalado pra viewport, touch ≥60px, inatividade 30s |
 | **Admin** | `/admin/login` | Sidebar + 4 telas (PDV, KDS, Dashboard, Auditoria) com guard por role |
-
-## Documentação relevante
-
-- [Briefing técnico](docs/01-briefing.md) — visão geral, atores, canais
-- [Requisitos funcionais e não-funcionais](docs/02-requisitos.md)
-- [Fluxos end-to-end](docs/03-fluxos.md)
-- [Design System](docs/04-design-system.md) — tokens visuais
-- [Plano de Testes](docs/05-plano-testes.md) — 20 cenários
-- [Decisões Técnicas (ADRs)](docs/06-decisoes-tecnicas.md)
-- [Validação dos cenários](src/__tests__/CENARIOS.md) — status PASS/PENDENTE
-- [Guia de deploy](docs/DEPLOY.md)
 
 ## Créditos
 
