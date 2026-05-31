@@ -1,0 +1,8 @@
+/* Paleta visual herdada do projeto Raízes — indigo + coral + verde sobre areia */
+:root {
+  --sertao-indigo: #2d3a8c;
+  --sertao-coral: #e85d4c;
+  --sertao-areia: #f5e6d3;
+  --sertao-noite: #1a1a2e;
+  --sertao-verde: #3d6b4f;
+}

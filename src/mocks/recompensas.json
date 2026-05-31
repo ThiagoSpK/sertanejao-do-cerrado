@@ -1,0 +1,50 @@
+[
+  {
+    "id": "R01",
+    "nome": "Suco do dia",
+    "descricao": "Escolha entre pequi, cagaita ou caju do cerrado — 400 ml.",
+    "custoPontos": 80,
+    "imagem": "https://images.unsplash.com/photo-1506619216599-9d16d0903dfd?w=400&h=400&fit=crop&q=80",
+    "ativa": true
+  },
+  {
+    "id": "R02",
+    "nome": "Empada goiana",
+    "descricao": "Empadinha de palmito ou frango, recheio artesanal da casa.",
+    "custoPontos": 120,
+    "imagem": "https://images.unsplash.com/photo-1560448075-3244c9fbefa8?w=400&h=400&fit=crop&q=80",
+    "ativa": true
+  },
+  {
+    "id": "R03",
+    "nome": "Pão de queijo da fazenda",
+    "descricao": "Porção de 4 pães de queijo da serra do Cerrado.",
+    "custoPontos": 150,
+    "imagem": "https://images.unsplash.com/photo-1773399159457-b8e8ccdc980d?w=400&h=400&fit=crop&q=80",
+    "ativa": true
+  },
+  {
+    "id": "R04",
+    "nome": "Fatia de pamonha doce",
+    "descricao": "Milho verde fresco na palha, na medida certa do açúcar.",
+    "custoPontos": 180,
+    "imagem": "https://images.unsplash.com/photo-1773399159824-5a63848662d2?w=400&h=400&fit=crop&q=80",
+    "ativa": true
+  },
+  {
+    "id": "R05",
+    "nome": "Combo Cagaita",
+    "descricao": "Empadão + suco do dia + café coado. Exclusivo nível Cagaita ou superior.",
+    "custoPontos": 280,
+    "imagem": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=400&h=400&fit=crop&q=80",
+    "ativa": true
+  },
+  {
+    "id": "R06",
+    "nome": "Banquete Baru",
+    "descricao": "Galinhada goiana com pequi + caldo de cana + doce de leite. Resgate premium.",
+    "custoPontos": 450,
+    "imagem": "https://images.unsplash.com/photo-1485995768424-01c1ccc33f7a?w=400&h=400&fit=crop&q=80",
+    "ativa": true
+  }
+]

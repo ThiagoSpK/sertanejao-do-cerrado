@@ -1,0 +1,34 @@
+[
+  {
+    "codigo": "FIDELIDADE10",
+    "descricao": "10% de desconto para clientes do Clube Pequi nível Cagaita ou superior.",
+    "tipo": "percentual",
+    "valor": 10,
+    "validade": "2026-12-31",
+    "ativo": true
+  },
+  {
+    "codigo": "BEMVINDO15",
+    "descricao": "15% de desconto no primeiro pedido. Limite: 1 uso por CPF.",
+    "tipo": "percentual",
+    "valor": 15,
+    "validade": "2026-12-31",
+    "ativo": true
+  },
+  {
+    "codigo": "JUNINO20",
+    "descricao": "20% de desconto nos produtos sazonais juninos. Válido apenas no mês de junho.",
+    "tipo": "percentual",
+    "valor": 20,
+    "validade": "2026-06-30",
+    "ativo": true
+  },
+  {
+    "codigo": "CERRADO5",
+    "descricao": "R$ 5 de desconto em pedidos acima de R$ 30.",
+    "tipo": "fixo",
+    "valor": 5,
+    "validade": "2026-12-31",
+    "ativo": true
+  }
+]

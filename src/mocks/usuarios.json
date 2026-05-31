@@ -1,0 +1,23 @@
+[
+  {
+    "id": "u-demo-01",
+    "nome": "Beatriz Carvalho",
+    "email": "beatriz@cerrado.demo",
+    "senha": "cerrado123",
+    "telefone": "(62) 99876-5432",
+    "cpf": "123.456.789-09",
+    "dataNascimento": "1992-03-14",
+    "consentimentos": { "marketing": true, "analisePerfil": false },
+    "criadoEm": "2026-01-15T12:00:00.000Z"
+  },
+  {
+    "id": "u-demo-02",
+    "nome": "Lucas Andrade",
+    "email": "lucas@cerrado.demo",
+    "senha": "cerrado123",
+    "telefone": "(62) 98765-1234",
+    "dataNascimento": "1988-09-02",
+    "consentimentos": { "marketing": false, "analisePerfil": false },
+    "criadoEm": "2026-02-08T09:30:00.000Z"
+  }
+]

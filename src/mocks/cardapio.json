@@ -1,0 +1,463 @@
+[
+  {
+    "id": "P01",
+    "nome": "Pão de Queijo da Fazenda",
+    "descricao": "Polvilho azedo com queijo Canastra envelhecido. Casca dourada, miolo puxa-puxa. Porção com 4 unidades.",
+    "preco": 8.5,
+    "categoria": "cafe-da-manha",
+    "imagem": "https://images.unsplash.com/photo-1559141680-d0bd7bc5af84?w=400&h=400&fit=crop&q=80",
+    "tags": ["vegetariano", "sem-gluten", "tradicional", "regional", "mais-pedido"],
+    "unidades": ["U01", "U02", "U03", "U04", "U05"],
+    "alergenicos": ["leite", "ovo"]
+  },
+  {
+    "id": "P02",
+    "nome": "Broa de Fubá Caseira",
+    "descricao": "Fubá mimoso, erva-doce, ovo caipira. Fatia generosa, crosta açucarada.",
+    "preco": 7.0,
+    "categoria": "cafe-da-manha",
+    "imagem": "https://images.unsplash.com/photo-1598142982901-df6cec10ae35?w=400&h=400&fit=crop&q=80",
+    "tags": ["vegetariano", "tradicional", "regional"],
+    "unidades": ["U01", "U02", "U03", "U04", "U05"],
+    "alergenicos": ["gluten", "ovo", "leite"]
+  },
+  {
+    "id": "P03",
+    "nome": "Ovos com Queijo no Pão de Forma",
+    "descricao": "Dois ovos mexidos na manteiga, queijo canastra ralado, no pão caseiro tostado.",
+    "preco": 11.0,
+    "categoria": "cafe-da-manha",
+    "imagem": "https://images.unsplash.com/photo-1626379907504-327b925f4b79?w=400&h=400&fit=crop&q=80",
+    "tags": ["vegetariano", "tradicional"],
+    "unidades": ["U01", "U02", "U03", "U04", "U05"],
+    "alergenicos": ["ovo", "leite", "gluten"]
+  },
+  {
+    "id": "P04",
+    "nome": "Mingau de Maizena com Canela",
+    "descricao": "Maizena batida com leite integral, canela e cravo. Quente, servido em caneca de louça.",
+    "preco": 9.5,
+    "categoria": "cafe-da-manha",
+    "imagem": "https://images.unsplash.com/photo-1497515114629-f71d768fd07c?w=400&h=400&fit=crop&q=80",
+    "tags": ["vegetariano", "sem-gluten", "quente", "regional"],
+    "unidades": ["U01", "U02", "U03"],
+    "alergenicos": ["leite"]
+  },
+  {
+    "id": "P05",
+    "nome": "Cuscuz Branco com Café",
+    "descricao": "Cuscuz de tapioca firme com manteiga, polvilhado de açúcar mascavo. Acompanhado de café coado.",
+    "preco": 10.0,
+    "categoria": "cafe-da-manha",
+    "imagem": "https://images.unsplash.com/photo-1628521061262-19b5cdb7eee5?w=400&h=400&fit=crop&q=80",
+    "tags": ["vegetariano", "sem-gluten", "tradicional", "regional"],
+    "unidades": ["U01", "U02", "U03"],
+    "alergenicos": ["leite"]
+  },
+  {
+    "id": "P06",
+    "nome": "Empadão Goiano",
+    "descricao": "Massa amanteigada, recheio de frango caipira com guariroba, queijo, ovos cozidos, milho verde e linguiça artesanal. O quitute da casa.",
+    "preco": 32.0,
+    "categoria": "tapiocas",
+    "imagem": "https://images.unsplash.com/photo-1550005399-c95f859c0fc7?w=400&h=400&fit=crop&q=80",
+    "tags": ["salgado", "mais-pedido", "tradicional", "regional"],
+    "unidades": ["U01", "U02", "U03"],
+    "customizacoes": [
+      {
+        "id": "tamanho",
+        "nome": "Tamanho",
+        "tipo": "unica",
+        "obrigatoria": true,
+        "opcoes": [
+          { "id": "individual", "nome": "Individual", "precoExtra": 0 },
+          { "id": "dupla", "nome": "Dupla (serve 2)", "precoExtra": 22 },
+          { "id": "familia", "nome": "Família (serve 4)", "precoExtra": 48 }
+        ]
+      },
+      {
+        "id": "extras",
+        "nome": "Adicionais",
+        "tipo": "multipla",
+        "obrigatoria": false,
+        "opcoes": [
+          { "id": "queijo-extra", "nome": "Queijo canastra extra", "precoExtra": 5 },
+          { "id": "pimenta-bode", "nome": "Pimenta-de-bode à parte", "precoExtra": 0 }
+        ]
+      }
+    ],
+    "alergenicos": ["gluten", "leite", "ovo"]
+  },
+  {
+    "id": "P07",
+    "nome": "Pastel de Pequi",
+    "descricao": "Pastel grande de massa fina, recheado com pequi refogado e queijo canastra. Frito na hora.",
+    "preco": 18.0,
+    "categoria": "tapiocas",
+    "imagem": "https://images.unsplash.com/photo-1560448075-3244c9fbefa8?w=400&h=400&fit=crop&q=80",
+    "tags": ["salgado", "regional", "tradicional"],
+    "unidades": ["U01", "U02", "U03", "U04", "U05"],
+    "alergenicos": ["gluten", "leite"]
+  },
+  {
+    "id": "P08",
+    "nome": "Empada de Palmito",
+    "descricao": "Massa podre, palmito refogado com tomate e cebola, ervas frescas. Crocante por fora, úmida por dentro.",
+    "preco": 14.0,
+    "categoria": "tapiocas",
+    "imagem": "https://images.unsplash.com/photo-1773399159457-b8e8ccdc980d?w=400&h=400&fit=crop&q=80",
+    "tags": ["vegetariano", "salgado", "mais-pedido"],
+    "unidades": ["U01", "U02", "U03", "U04", "U05"],
+    "alergenicos": ["gluten", "leite", "ovo"]
+  },
+  {
+    "id": "P09",
+    "nome": "Esfiha de Frango com Catupiry",
+    "descricao": "Massa fofa, frango desfiado refogado, catupiry cremoso. Forneada.",
+    "preco": 12.0,
+    "categoria": "tapiocas",
+    "imagem": "https://images.unsplash.com/photo-1485995768424-01c1ccc33f7a?w=400&h=400&fit=crop&q=80",
+    "tags": ["salgado"],
+    "unidades": ["U01", "U02", "U03"],
+    "alergenicos": ["gluten", "leite"]
+  },
+  {
+    "id": "P10",
+    "nome": "Tapioca de Queijo Canastra",
+    "descricao": "Goma fina, queijo canastra envelhecido derretido. Versão do interior.",
+    "preco": 19.0,
+    "categoria": "tapiocas",
+    "imagem": "https://images.unsplash.com/photo-1773399159474-7562fe775989?w=400&h=400&fit=crop&q=80",
+    "tags": ["vegetariano", "sem-gluten", "regional"],
+    "unidades": ["U01", "U02", "U03"],
+    "customizacoes": [
+      {
+        "id": "tamanho",
+        "nome": "Tamanho",
+        "tipo": "unica",
+        "obrigatoria": true,
+        "opcoes": [
+          { "id": "p", "nome": "Pequena", "precoExtra": 0 },
+          { "id": "m", "nome": "Média", "precoExtra": 3 },
+          { "id": "g", "nome": "Grande", "precoExtra": 6 }
+        ]
+      }
+    ],
+    "alergenicos": ["leite"]
+  },
+  {
+    "id": "P11",
+    "nome": "Empadinha Doce de Leite",
+    "descricao": "Massa amanteigada com cobertura de doce de leite mineiro cremoso. Doce sem ser enjoativo.",
+    "preco": 9.0,
+    "categoria": "tapiocas",
+    "imagem": "https://images.unsplash.com/photo-1776267068270-5abc4a9483cc?w=400&h=400&fit=crop&q=80",
+    "tags": ["vegetariano", "doce", "tradicional"],
+    "unidades": ["U01", "U02", "U03", "U04", "U05"],
+    "alergenicos": ["gluten", "leite", "ovo"]
+  },
+  {
+    "id": "P12",
+    "nome": "Coxinha de Frango Caipira",
+    "descricao": "Massa fina, frango caipira desfiado com catupiry, empanada e frita na hora.",
+    "preco": 11.0,
+    "categoria": "tapiocas",
+    "imagem": "https://images.unsplash.com/photo-1637362449062-ae26d7732d0c?w=400&h=400&fit=crop&q=80",
+    "tags": ["salgado", "tradicional"],
+    "unidades": ["U01", "U02", "U03", "U04", "U05"],
+    "alergenicos": ["gluten", "leite", "ovo"]
+  },
+  {
+    "id": "P13",
+    "nome": "Risole de Camarão",
+    "descricao": "Risole crocante, camarão refogado com catupiry e cheiro-verde.",
+    "preco": 13.0,
+    "categoria": "tapiocas",
+    "imagem": "https://images.unsplash.com/photo-1572490364833-3b29873fd749?w=400&h=400&fit=crop&q=80",
+    "tags": ["salgado"],
+    "unidades": ["U01", "U02", "U03"],
+    "alergenicos": ["crustaceos", "gluten", "leite"]
+  },
+  {
+    "id": "P14",
+    "nome": "Galinhada Goiana com Pequi",
+    "descricao": "Arroz refogado com frango caipira, pequi e açafrão da terra. Servido na panela, pra dividir. Acompanha pimenta-de-bode.",
+    "preco": 36.0,
+    "categoria": "cuscuz",
+    "imagem": "https://images.unsplash.com/photo-1653681472495-0a62d97e37fb?w=400&h=400&fit=crop&q=80",
+    "tags": ["salgado", "sem-gluten", "mais-pedido", "tradicional", "regional"],
+    "unidades": ["U01", "U02", "U03"],
+    "customizacoes": [
+      {
+        "id": "pequi",
+        "nome": "Pequi",
+        "tipo": "unica",
+        "obrigatoria": false,
+        "opcoes": [
+          { "id": "padrao", "nome": "Como vem (com pequi)", "precoExtra": 0 },
+          { "id": "sem", "nome": "Sem pequi", "precoExtra": 0 },
+          { "id": "extra", "nome": "Extra pequi", "precoExtra": 5 }
+        ]
+      }
+    ],
+    "alergenicos": []
+  },
+  {
+    "id": "P15",
+    "nome": "Frango com Quiabo",
+    "descricao": "Frango caipira refogado com quiabo, angu de fubá ao lado. Tempero mineiro.",
+    "preco": 28.0,
+    "categoria": "cuscuz",
+    "imagem": "https://images.unsplash.com/photo-1626379907504-327b925f4b79?w=400&h=400&fit=crop&q=80",
+    "tags": ["salgado", "sem-gluten", "tradicional", "regional"],
+    "unidades": ["U01", "U02", "U03"],
+    "alergenicos": []
+  },
+  {
+    "id": "P16",
+    "nome": "Arroz Carreteiro Mineiro",
+    "descricao": "Arroz cozido com carne-seca desfiada, cebola, alho e cheiro-verde. Versão simples do interior.",
+    "preco": 24.0,
+    "categoria": "cuscuz",
+    "imagem": "https://images.unsplash.com/photo-1628521061262-19b5cdb7eee5?w=400&h=400&fit=crop&q=80",
+    "tags": ["salgado", "sem-gluten"],
+    "unidades": ["U01", "U02", "U03"],
+    "alergenicos": []
+  },
+  {
+    "id": "P17",
+    "nome": "Baião de Dois Goiano",
+    "descricao": "Arroz com feijão-fradinho, queijo canastra, linguiça artesanal e cheiro-verde. Bate forte no inverno.",
+    "preco": 26.0,
+    "categoria": "cuscuz",
+    "imagem": "https://images.unsplash.com/photo-1485995768424-01c1ccc33f7a?w=400&h=400&fit=crop&q=80",
+    "tags": ["salgado", "sem-gluten", "regional"],
+    "unidades": ["U01", "U02", "U03"],
+    "alergenicos": ["leite"]
+  },
+  {
+    "id": "P18",
+    "nome": "Picadinho com Mandioca Frita",
+    "descricao": "Carne em cubos refogada com tomate, cebola e cheiro-verde. Mandioca frita crocante por cima.",
+    "preco": 30.0,
+    "categoria": "cuscuz",
+    "imagem": "https://images.unsplash.com/photo-1550005399-c95f859c0fc7?w=400&h=400&fit=crop&q=80",
+    "tags": ["salgado", "sem-gluten"],
+    "unidades": ["U01", "U02", "U03"],
+    "alergenicos": []
+  },
+  {
+    "id": "P19",
+    "nome": "Pamonha Doce na Palha",
+    "descricao": "Milho verde fresco ralado, açúcar mascavo, coco, embrulhado na palha do milho e cozido. Junina o ano todo na casa.",
+    "preco": 10.0,
+    "categoria": "bolos",
+    "imagem": "https://images.unsplash.com/photo-1773399159824-5a63848662d2?w=400&h=400&fit=crop&q=80",
+    "tags": ["vegetariano", "sem-gluten", "doce", "tradicional", "regional", "mais-pedido"],
+    "unidades": ["U01", "U02", "U03", "U04", "U05"],
+    "customizacoes": [
+      {
+        "id": "porcao",
+        "nome": "Porção",
+        "tipo": "unica",
+        "obrigatoria": true,
+        "opcoes": [
+          { "id": "unidade", "nome": "1 pamonha", "precoExtra": 0 },
+          { "id": "duo", "nome": "Dupla (2)", "precoExtra": 8 },
+          { "id": "caixa", "nome": "Caixa (6)", "precoExtra": 28 }
+        ]
+      }
+    ],
+    "alergenicos": []
+  },
+  {
+    "id": "P20",
+    "nome": "Bolo de Queijo Mineiro",
+    "descricao": "Queijo Canastra ralado na massa, manteiga, ovos. Casca crocante, miolo úmido. Receita de fazenda.",
+    "preco": 11.0,
+    "categoria": "bolos",
+    "imagem": "https://images.unsplash.com/photo-1759701787895-d0d63aa2acba?w=400&h=400&fit=crop&q=80",
+    "tags": ["vegetariano", "sem-gluten", "regional", "tradicional"],
+    "unidades": ["U01", "U02", "U03"],
+    "alergenicos": ["leite", "ovo"]
+  },
+  {
+    "id": "P21",
+    "nome": "Doce de Leite Cremoso",
+    "descricao": "Leite integral cozido com açúcar por 4 horas. Servido em porção, com biscoito de queijo na borda.",
+    "preco": 12.0,
+    "categoria": "bolos",
+    "imagem": "https://images.unsplash.com/photo-1745871004799-4ff41b068b24?w=400&h=400&fit=crop&q=80",
+    "tags": ["vegetariano", "sem-gluten", "doce", "tradicional", "regional"],
+    "unidades": ["U01", "U02", "U03"],
+    "alergenicos": ["leite"]
+  },
+  {
+    "id": "P22",
+    "nome": "Pé de Moleque Caseiro",
+    "descricao": "Amendoim torrado, rapadura derretida lenta, pitada de sal. Quebra na boca.",
+    "preco": 6.0,
+    "categoria": "bolos",
+    "imagem": "https://images.unsplash.com/photo-1637362449062-ae26d7732d0c?w=400&h=400&fit=crop&q=80",
+    "tags": ["vegetariano", "sem-gluten", "doce", "tradicional", "regional"],
+    "unidades": ["U01", "U02", "U03", "U04", "U05"],
+    "alergenicos": ["amendoim"]
+  },
+  {
+    "id": "P23",
+    "nome": "Queijadinha do Cerrado",
+    "descricao": "Coco fresco ralado, queijo canastra, leite condensado, ovos. Casquinha caramelizada.",
+    "preco": 9.0,
+    "categoria": "bolos",
+    "imagem": "https://images.unsplash.com/photo-1559141680-d0bd7bc5af84?w=400&h=400&fit=crop&q=80",
+    "tags": ["vegetariano", "sem-gluten", "doce", "regional"],
+    "unidades": ["U01", "U02", "U03"],
+    "alergenicos": ["leite", "ovo"]
+  },
+  {
+    "id": "P24",
+    "nome": "Café Coado da Casa",
+    "descricao": "Grão cerrado mineiro de torra média, coado em coador de pano. Servido em xícara de louça.",
+    "preco": 5.0,
+    "categoria": "bebidas",
+    "imagem": "https://images.unsplash.com/photo-1610632380989-680fe40816c6?w=400&h=400&fit=crop&q=80",
+    "tags": ["vegetariano", "sem-gluten", "quente", "tradicional", "mais-pedido"],
+    "unidades": ["U01", "U02", "U03", "U04", "U05"],
+    "customizacoes": [
+      {
+        "id": "acucar",
+        "nome": "Açúcar",
+        "tipo": "unica",
+        "obrigatoria": false,
+        "opcoes": [
+          { "id": "com", "nome": "Com açúcar", "precoExtra": 0 },
+          { "id": "sem", "nome": "Sem açúcar", "precoExtra": 0 },
+          { "id": "mascavo", "nome": "Com mascavo", "precoExtra": 0 }
+        ]
+      }
+    ],
+    "alergenicos": []
+  },
+  {
+    "id": "P25",
+    "nome": "Suco de Pequi",
+    "descricao": "Polpa de pequi batida com leite gelado e leve toque de açúcar. Sabor único do cerrado.",
+    "preco": 11.0,
+    "categoria": "bebidas",
+    "imagem": "https://images.unsplash.com/photo-1506619216599-9d16d0903dfd?w=400&h=400&fit=crop&q=80",
+    "tags": ["vegetariano", "sem-gluten", "gelado", "regional", "mais-pedido"],
+    "unidades": ["U01", "U02", "U03"],
+    "customizacoes": [
+      {
+        "id": "tamanho-suco",
+        "nome": "Tamanho",
+        "tipo": "unica",
+        "obrigatoria": true,
+        "opcoes": [
+          { "id": "300", "nome": "300 ml", "precoExtra": 0 },
+          { "id": "500", "nome": "500 ml", "precoExtra": 3 }
+        ]
+      }
+    ],
+    "alergenicos": ["leite"]
+  },
+  {
+    "id": "P26",
+    "nome": "Suco de Cagaita",
+    "descricao": "Fruta nativa do cerrado, sabor ácido-cítrico. Batido com água gelada.",
+    "preco": 9.0,
+    "categoria": "bebidas",
+    "imagem": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=400&h=400&fit=crop&q=80",
+    "tags": ["vegetariano", "sem-gluten", "gelado", "regional"],
+    "unidades": ["U01", "U02", "U03", "U04", "U05"],
+    "alergenicos": []
+  },
+  {
+    "id": "P27",
+    "nome": "Caldo de Cana com Limão",
+    "descricao": "Cana espremida na hora, gelada, gotinhas de limão. Tradição da feira.",
+    "preco": 7.0,
+    "categoria": "bebidas",
+    "imagem": "https://images.unsplash.com/photo-1511920170033-f8396924c348?w=400&h=400&fit=crop&q=80",
+    "tags": ["vegetariano", "sem-gluten", "gelado", "regional"],
+    "unidades": ["U01", "U02", "U03", "U04", "U05"],
+    "alergenicos": []
+  },
+  {
+    "id": "P28",
+    "nome": "Água de Coco Gelada",
+    "descricao": "Coco verde, aberto na hora. Servido com canudo de papel.",
+    "preco": 7.0,
+    "categoria": "bebidas",
+    "imagem": "https://images.unsplash.com/photo-1572490364833-3b29873fd749?w=400&h=400&fit=crop&q=80",
+    "tags": ["vegetariano", "sem-gluten", "gelado"],
+    "unidades": ["U01", "U02", "U03", "U04", "U05"],
+    "alergenicos": []
+  },
+  {
+    "id": "P29",
+    "nome": "Leite com Mocotó",
+    "descricao": "Leite quente com gel de mocotó e canela. Receita de fazenda. Servido em caneca de ágata.",
+    "preco": 9.0,
+    "categoria": "bebidas",
+    "imagem": "https://images.unsplash.com/photo-1497515114629-f71d768fd07c?w=400&h=400&fit=crop&q=80",
+    "tags": ["sem-gluten", "quente", "regional", "tradicional"],
+    "unidades": ["U01", "U02", "U03"],
+    "alergenicos": ["leite"]
+  },
+  {
+    "id": "P30",
+    "nome": "Combo Café Goiano",
+    "descricao": "Pão de queijo (4) + suco de cagaita 300ml + café coado. Café da manhã completo, com 12% de desconto.",
+    "preco": 21.0,
+    "categoria": "promocoes",
+    "imagem": "https://images.unsplash.com/photo-1511690656952-34342bb7c2f2?w=400&h=400&fit=crop&q=80",
+    "tags": ["vegetariano", "combo"],
+    "unidades": ["U01", "U02", "U03"],
+    "alergenicos": ["leite", "ovo"]
+  },
+  {
+    "id": "P31",
+    "nome": "Canjica de Milho Verde",
+    "descricao": "Milho verde cozido com leite, leite condensado, canela e cravo. Versão cremosa do cerrado.",
+    "preco": 11.0,
+    "categoria": "promocoes",
+    "imagem": "https://images.unsplash.com/photo-1773399159824-5a63848662d2?w=400&h=400&fit=crop&q=80",
+    "tags": ["vegetariano", "sem-gluten", "doce", "sazonal-junino", "tradicional", "regional"],
+    "unidades": ["U01", "U02", "U03", "U04"],
+    "alergenicos": ["leite"]
+  },
+  {
+    "id": "P32",
+    "nome": "Paçoca de Pilão",
+    "descricao": "Amendoim socado no pilão com farinha de mandioca e açúcar. Esfarela na boca.",
+    "preco": 5.0,
+    "categoria": "promocoes",
+    "imagem": "https://images.unsplash.com/photo-1773399159474-7562fe775989?w=400&h=400&fit=crop&q=80",
+    "tags": ["vegetariano", "sem-gluten", "doce", "sazonal-junino", "tradicional", "regional"],
+    "unidades": ["U01", "U02", "U03", "U04"],
+    "alergenicos": ["amendoim"]
+  },
+  {
+    "id": "P33",
+    "nome": "Biscoito de Queijo na Palha",
+    "descricao": "Polvilho doce, queijo canastra, manteiga. Forneado em palha de milho. Edição limitada.",
+    "preco": 8.0,
+    "categoria": "promocoes",
+    "imagem": "https://images.unsplash.com/photo-1598142982901-df6cec10ae35?w=400&h=400&fit=crop&q=80",
+    "tags": ["vegetariano", "sem-gluten", "sazonal-junino", "tradicional", "regional"],
+    "unidades": ["U01", "U02", "U03"],
+    "alergenicos": ["leite", "ovo"]
+  },
+  {
+    "id": "P34",
+    "nome": "Combo Família Cerrado",
+    "descricao": "Empadão goiano família + 2 sucos de pequi 500ml + pamonha doce dupla. Serve 4 pessoas.",
+    "preco": 94.9,
+    "categoria": "promocoes",
+    "imagem": "https://images.unsplash.com/photo-1653681472495-0a62d97e37fb?w=400&h=400&fit=crop&q=80",
+    "tags": ["combo", "mais-pedido"],
+    "unidades": ["U01", "U02", "U03"],
+    "alergenicos": ["leite", "ovo", "gluten"]
+  }
+]
